@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    Header
   </div>
 </template>
 
@@ -9,10 +9,8 @@
 // import App from '@/'
 // import app from '@/components/HelloWorld.vue'
 export default {
-
-}
+  name: "Header",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
