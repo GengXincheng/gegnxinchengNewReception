@@ -1,59 +1,5 @@
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>头部导航栏布局</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/swiper.min.css">
-    <link rel="stylesheet" href="./css/home.css">
-</head>
-
-<body>
-    <!-- 项目的最外层 -->
-    <div class="outer">
-        <!-- 头部 -->
-        <header class="header">
-            <!-- 头部的第一行 -->
-            <div class="top">
-                <div class="container">
-                    <div class="loginList">
-                        <p>尚品汇欢迎您！</p>
-                        <p>
-                            <span>请</span>
-                            <a href="###">登录</a>
-                            <a href="###" class="register">免费注册</a>
-                        </p>
-                    </div>
-                    <div class="typeList">
-                        <a href="###">我的订单</a>
-                        <a href="###">我的购物车</a>
-                        <a href="###">我的尚品汇</a>
-                        <a href="###">尚品汇会员</a>
-                        <a href="###">企业采购</a>
-                        <a href="###">关注尚品汇</a>
-                        <a href="###">合作招商</a>
-                        <a href="###">商家后台</a>
-                    </div>
-                </div>
-            </div>
-            <!--头部第二行 搜索区域-->
-            <div class="bottom">
-                <h1 class="logoArea">
-                    <a class="logo" title="尚品汇" href="###" target="_blank">
-                        <img src="./images/logo.png" alt="">
-                    </a>
-                </h1>
-                <div class="searchArea">
-                    <form action="###" class="searchForm">
-                        <input type="text" id="autocomplete" class="input-error input-xxlarge" />
-                        <button class="sui-btn btn-xlarge btn-danger" type="button">搜索</button>
-                    </form>
-                </div>
-            </div>
-        </header>
-
-        <!-- 商品分类导航 -->
+<template>
+    <!-- 商品分类导航 -->
         <div class="type-nav">
             <div class="container">
                 <h2 class="all">全部商品分类</h2>
@@ -90,7 +36,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -127,7 +73,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -277,7 +223,7 @@
                                                 <a href="">科普</a>
                                             </em>
                                             <em>
-                                                <a href="">it</a>
+                                                <a href="">IT</a>
                                             </em>
                                             <em>
                                                 <a href="">建筑</a>
@@ -362,7 +308,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -486,7 +432,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -636,7 +582,7 @@
                                                 <a href="">科普</a>
                                             </em>
                                             <em>
-                                                <a href="">it</a>
+                                                <a href="">IT</a>
                                             </em>
                                             <em>
                                                 <a href="">建筑</a>
@@ -745,7 +691,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -895,7 +841,7 @@
                                                 <a href="">科普</a>
                                             </em>
                                             <em>
-                                                <a href="">it</a>
+                                                <a href="">IT</a>
                                             </em>
                                             <em>
                                                 <a href="">建筑</a>
@@ -970,7 +916,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -1120,7 +1066,7 @@
                                                 <a href="">科普</a>
                                             </em>
                                             <em>
-                                                <a href="">it</a>
+                                                <a href="">IT</a>
                                             </em>
                                             <em>
                                                 <a href="">建筑</a>
@@ -1175,7 +1121,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -1325,7 +1271,7 @@
                                                 <a href="">科普</a>
                                             </em>
                                             <em>
-                                                <a href="">it</a>
+                                                <a href="">IT</a>
                                             </em>
                                             <em>
                                                 <a href="">建筑</a>
@@ -1434,7 +1380,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -1535,7 +1481,7 @@
                                                 <a href="">经管</a>
                                             </em>
                                             <em>
-                                                <a href="">畅读vip</a>
+                                                <a href="">畅读VIP</a>
                                             </em>
                                         </dd>
                                     </dl>
@@ -1685,7 +1631,7 @@
                                                 <a href="">科普</a>
                                             </em>
                                             <em>
-                                                <a href="">it</a>
+                                                <a href="">IT</a>
                                             </em>
                                             <em>
                                                 <a href="">建筑</a>
@@ -1744,650 +1690,133 @@
                 </div>
             </div>
         </div>
+</template>
 
-        <!--列表-->
-        <div class="list-container">
-            <div class="sortList clearfix">
-                <div class="center">
-                    <!--banner轮播-->
-                    <div class="swiper-container" id="mySwiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="./images/home/banner1.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/home/banner2.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/home/banner3.jpg" />
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="./images/home/banner4.jpg" />
-                            </div>
-                        </div>
-                        <!-- 如果需要分页器 -->
-                        <div class="swiper-pagination"></div>
+<script>
+export default {
 
-                        <!-- 如果需要导航按钮 -->
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="news">
-                        <h4>
-                            <em class="fl">尚品汇快报</em>
-                            <span class="fr tip">更多 ></span>
-                        </h4>
-                        <div class="clearix"></div>
-                        <ul class="news-list unstyled">
-                            <li>
-                                <span class="bold">[特惠]</span>备战开学季 全民半价购数码
-                            </li>
-                            <li>
-                                <span class="bold">[公告]</span>备战开学季 全民半价购数码
-                            </li>
-                            <li>
-                                <span class="bold">[特惠]</span>备战开学季 全民半价购数码
-                            </li>
-                            <li>
-                                <span class="bold">[公告]</span>备战开学季 全民半价购数码
-                            </li>
-                            <li>
-                                <span class="bold">[特惠]</span>备战开学季 全民半价购数码
-                            </li>
-                        </ul>
-                    </div>
-                    <ul class="lifeservices">
-                        <li class=" life-item ">
-                            <i class="list-item"></i>
-                            <span class="service-intro">话费</span>
-                        </li>
-                        <li class=" life-item ">
-                            <i class="list-item"></i>
-                            <span class="service-intro">机票</span>
-                        </li>
-                        <li class=" life-item ">
-                            <i class="list-item"></i>
-                            <span class="service-intro">电影票</span>
-                        </li>
-                        <li class=" life-item ">
-                            <i class="list-item"></i>
-                            <span class="service-intro">游戏</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">彩票</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">加油站</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">酒店</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">火车票</span>
-                        </li>
-                        <li class=" life-item ">
-                            <i class="list-item"></i>
-                            <span class="service-intro">众筹</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">理财</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">礼品卡</span>
-                        </li>
-                        <li class=" life-item">
-                            <i class="list-item"></i>
-                            <span class="service-intro">白条</span>
-                        </li>
-                    </ul>
-                    <div class="ads">
-                        <img src="./images/home/ad1.png" />
-                    </div>
-                </div>
-            </div>
-        </div>
+}
+</script>
 
-        <!--今日推荐-->
-        <div class="today-recommend">
-            <div class="py-container">
-                <ul class="recommend">
-                    <li class="clock">
-                        <div class="time">
-                            <img src="./images/home/clock.png" />
-                            <h3>今日推荐</h3>
-                        </div>
-                    </li>
-                    <li class="banner">
-                        <img src="./images/home/today01.png" />
-                    </li>
-                    <li class="banner">
-                        <img src="./images/home/today02.png" />
-                    </li>
-                    <li class="banner">
-                        <img src="./images/home/today03.png" />
-                    </li>
-                    <li class="banner">
-                        <img src="./images/home/today04.png" />
-                    </li>
-                </ul>
-            </div>
-        </div>
+<style lang='less' scoped>
+ .type-nav {
+        border-bottom: 2px solid #e1251b;
 
-        <!-- 商品排行 -->
-        <div class="rank">
-            <div class="tab">
-                <div class="tab-tit clearfix">
-                    <a href="javascript:;" class="on">
-                        <p class="img">
-                            <i></i>
-                        </p>
-                        <p class="text">热卖排行</p>
-                    </a>
-                    <a href="javascript:;">
-                        <p class="img">
-                            <i></i>
-                        </p>
-                        <p class="text">特价排行</p>
-                    </a>
-                    <a href="javascript:;">
-                        <p class="img">
-                            <i></i>
-                        </p>
-                        <p class="text">新品排行</p>
-                    </a>
-                </div>
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
 
-            </div>
-            <div class="content">
-                <ul>
-                    <li>
-                        <div class="img-item">
-                            <p class="tab-pic">
-                                <a href="#">
-                                    <img src="./images/home/1.jpg" />
-                                </a>
-                            </p>
-                            <div class="tab-info">
-                                <div class="info-title">
-                                    <a href="#">【官网价直降1100】Apple iPhone 8 Plus 256GB 银色 移动联通电信4G手机</a>
-                                </div>
-                                <p class="info-price">定金：¥100.00</p>
-                            </div>
-                        </div>
-                        <div class="img-item">
-                            <p class="tab-pic">
-                                <a href="#">
-                                    <img src="./images/home/1.jpg" />
-                                </a>
-                            </p>
-                            <div class="tab-info">
-                                <div class="info-title">
-                                    <a href="#">【官网价直降1100】Apple iPhone 8 Plus 256GB 银色 移动联通电信4G手机</a>
-                                </div>
-                                <p class="info-price">定金：¥100.00</p>
-                            </div>
-                        </div>
-                        <div class="img-item">
-                            <p class="tab-pic">
-                                <a href="#">
-                                    <img src="./images/home/1.jpg" />
-                                </a>
-                            </p>
-                            <div class="tab-info">
-                                <div class="info-title">
-                                    <a href="#">【官网价直降1100】Apple iPhone 8 Plus 256GB 银色 移动联通电信4G手机</a>
-                                </div>
-                                <p class="info-price">定金：¥100.00</p>
-                            </div>
-                        </div>
-                        <div class="img-item">
-                            <p class="tab-pic">
-                                <a href="#">
-                                    <img src="./images/home/1.jpg" />
-                                </a>
-                            </p>
-                            <div class="tab-info">
-                                <div class="info-title">
-                                    <a href="#">【官网价直降1100】Apple iPhone 8 Plus 256GB 银色 移动联通电信4G手机</a>
-                                </div>
-                                <p class="info-price">定金：¥100.00</p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 猜你喜欢 -->
-        <div class="like">
-            <div class="py-container">
-                <div class="title">
-                    <h3 class="fl">猜你喜欢</h3>
-                    <a href="javascript:;" class="fr tip changeBnt">换一换</a>
-                </div>
-                <div class="bd">
-                    <ul class="favourate">
-                        <li>
-                            <img src="./images/home/like_02.png" alt="" />
-                            <div class="like-text">
-                                <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-                                <h3>¥116.00</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/home/like_03.png" alt="" />
-                            <div class="like-text">
-                                <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-                                <h3>¥116.00</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/home/like_01.png" alt="" />
-                            <div class="like-text">
-                                <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-                                <h3>¥116.00</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/home/like_02.png" alt="" />
-                            <div class="like-text">
-                                <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-                                <h3>¥116.00</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/home/like_03.png" alt="" />
-                            <div class="like-text">
-                                <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-                                <h3>¥116.00</h3>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="./images/home/like_01.png" alt="" />
-                            <div class="like-text">
-                                <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-                                <h3>¥116.00</h3>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!--楼层-->
-        <div class="floor">
-            <div class="py-container">
-                <div class="title clearfix">
-                    <h3 class="fl">家用电器</h3>
-                    <div class="fr">
-                        <ul class="nav-tabs clearfix">
-                            <li class="active">
-                                <a href="#tab1" data-toggle="tab">热门</a>
-                            </li>
-                            <li>
-                                <a href="#tab2" data-toggle="tab">大家电</a>
-                            </li>
-                            <li>
-                                <a href="#tab3" data-toggle="tab">生活电器</a>
-                            </li>
-                            <li>
-                                <a href="#tab4" data-toggle="tab">厨房电器</a>
-                            </li>
-                            <li>
-                                <a href="#tab5" data-toggle="tab">应季电器</a>
-                            </li>
-                            <li>
-                                <a href="#tab6" data-toggle="tab">空气/净水</a>
-                            </li>
-                            <li>
-                                <a href="#tab7" data-toggle="tab">高端电器</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-content">
-                    <div class="tab-pane">
-                        <div class="floor-1">
-                            <div class="blockgary">
-                                <ul class="jd-list">
-                                    <li>节能补贴</li>
-                                    <li>4K电视</li>
-                                    <li>空气净化器</li>
-                                    <li>IH电饭煲</li>
-                                    <li>滚筒洗衣机</li>
-                                    <li>电热水器</li>
-                                </ul>
-                                <img src="./images/home/floor-1-1.png" />
-                            </div>
-                            <div class="floorBanner">
-                                <div class="swiper-container" id="floor1Swiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="./images/home/floor-1-b01.png">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="./images/home/floor-1-b02.png">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="./images/home/floor-1-b03.png">
-                                        </div>
-                                    </div>
-                                    <!-- 如果需要分页器 -->
-                                    <div class="swiper-pagination"></div>
-
-                                    <!-- 如果需要导航按钮 -->
-                                    <div class="swiper-button-prev"></div>
-                                    <div class="swiper-button-next"></div>
-                                </div>
-                            </div>
-                            <div class="split">
-                                <span class="floor-x-line"></span>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-2.png" />
-                                </div>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-3.png" />
-                                </div>
-                            </div>
-                            <div class="split center">
-                                <img src="./images/home/floor-1-4.png" />
-                            </div>
-                            <div class="split">
-                                <span class="floor-x-line"></span>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-5.png" />
-                                </div>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-6.png" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--楼层-->
-        <div class="floor">
-            <div class="py-container">
-                <div class="title clearfix">
-                    <h3 class="fl">家用电器</h3>
-                    <div class="fr">
-                        <ul class="nav-tabs clearfix">
-                            <li class="active">
-                                <a href="#tab1" data-toggle="tab">热门</a>
-                            </li>
-                            <li>
-                                <a href="#tab2" data-toggle="tab">大家电</a>
-                            </li>
-                            <li>
-                                <a href="#tab3" data-toggle="tab">生活电器</a>
-                            </li>
-                            <li>
-                                <a href="#tab4" data-toggle="tab">厨房电器</a>
-                            </li>
-                            <li>
-                                <a href="#tab5" data-toggle="tab">应季电器</a>
-                            </li>
-                            <li>
-                                <a href="#tab6" data-toggle="tab">空气/净水</a>
-                            </li>
-                            <li>
-                                <a href="#tab7" data-toggle="tab">高端电器</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="tab-content">
-                    <div class="tab-pane">
-                        <div class="floor-1">
-                            <div class="blockgary">
-                                <ul class="jd-list">
-                                    <li>节能补贴</li>
-                                    <li>4K电视</li>
-                                    <li>空气净化器</li>
-                                    <li>IH电饭煲</li>
-                                    <li>滚筒洗衣机</li>
-                                    <li>电热水器</li>
-                                </ul>
-                                <img src="./images/home/floor-1-1.png" />
-                            </div>
-                            <div class="floorBanner">
-                                <div class="swiper-container" id="floor2Swiper">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <img src="./images/home/floor-1-b01.png">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="./images/home/floor-1-b02.png">
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <img src="./images/home/floor-1-b03.png">
-                                        </div>
-                                    </div>
-                                    <!-- 如果需要分页器 -->
-                                    <div class="swiper-pagination"></div>
-
-                                    <!-- 如果需要导航按钮 -->
-                                    <div class="swiper-button-prev"></div>
-                                    <div class="swiper-button-next"></div>
-                                </div>
-                            </div>
-                            <div class="split">
-                                <span class="floor-x-line"></span>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-2.png" />
-                                </div>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-3.png" />
-                                </div>
-                            </div>
-                            <div class="split center">
-                                <img src="./images/home/floor-1-4.png" />
-                            </div>
-                            <div class="split">
-                                <span class="floor-x-line"></span>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-5.png" />
-                                </div>
-                                <div class="floor-conver-pit">
-                                    <img src="./images/home/floor-1-6.png" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--商标-->
-        <div class="brand">
-            <div class="py-container">
-                <ul class="brand-list">
-                    <li class="brand-item">
-                        <img src="./images/home/brand_21.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_03.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_05.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_07.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_09.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_11.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_13.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_15.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_17.png" />
-                    </li>
-                    <li class="brand-item">
-                        <img src="./images/home/brand_19.png" />
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 底部 -->
-        <div class="footer">
-            <div class="footer-container">
-                <div class="footerList">
-                    <div class="footerItem">
-                        <h4>购物指南</h4>
-                        <ul class="footerItemCon">
-                            <li>购物流程</li>
-                            <li>会员介绍</li>
-                            <li>生活旅行/团购</li>
-                            <li>常见问题</li>
-                            <li>购物指南</li>
-                        </ul>
-
-                    </div>
-                    <div class="footerItem">
-                        <h4>配送方式</h4>
-                        <ul class="footerItemCon">
-                            <li>上门自提</li>
-                            <li>211限时达</li>
-                            <li>配送服务查询</li>
-                            <li>配送费收取标准</li>
-                            <li>海外配送</li>
-                        </ul>
-                    </div>
-                    <div class="footerItem">
-                        <h4>支付方式</h4>
-                        <ul class="footerItemCon">
-                            <li>货到付款</li>
-                            <li>在线支付</li>
-                            <li>分期付款</li>
-                            <li>邮局汇款</li>
-                            <li>公司转账</li>
-                        </ul>
-                    </div>
-                    <div class="footerItem">
-                        <h4>售后服务</h4>
-                        <ul class="footerItemCon">
-                            <li>售后政策</li>
-                            <li>价格保护</li>
-                            <li>退款说明</li>
-                            <li>返修/退换货</li>
-                            <li>取消订单</li>
-                        </ul>
-                    </div>
-                    <div class="footerItem">
-                        <h4>特色服务</h4>
-                        <ul class="footerItemCon">
-                            <li>夺宝岛</li>
-                            <li>DIY装机</li>
-                            <li>延保服务</li>
-                            <li>尚品汇E卡</li>
-                            <li>尚品汇通信</li>
-                        </ul>
-                    </div>
-                    <div class="footerItem">
-                        <h4>帮助中心</h4>
-                        <img src="./images/wx_cz.jpg">
-                    </div>
-                </div>
-                <div class="copyright">
-                    <ul class="helpLink">
-                        <li>关于我们
-                            <span class="space"></span>
-                        </li>
-                        <li>联系我们
-                            <span class="space"></span>
-                        </li>
-                        <li>关于我们
-                            <span class="space"></span>
-                        </li>
-                        <li>商家入驻
-                            <span class="space"></span>
-                        </li>
-                        <li>营销中心
-                            <span class="space"></span>
-                        </li>
-                        <li>友情链接
-                            <span class="space"></span>
-                        </li>
-                        <li>关于我们
-                            <span class="space"></span>
-                        </li>
-                        <li>营销中心
-                            <span class="space"></span>
-                        </li>
-                        <li>友情链接
-                            <span class="space"></span>
-                        </li>
-                        <li>关于我们</li>
-                    </ul>
-                    <p>地址：北京市昌平区宏福科技园综合楼6层</p>
-                    <p>京ICP备19006430号</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="./js/swiper.min.js"></script>
-    <script>
-        var mySwiper = new Swiper('#mySwiper', {
-            loop: true, // 循环模式选项
-            // 如果需要分页器
-            pagination: {
-                el: '.swiper-pagination',
-            },
-            // 如果需要前进后退按钮
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        });
-
-        var floor1Swiper = new Swiper('#floor1Swiper', {
-            loop: true, // 循环模式选项
-
-            // 如果需要分页器
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // 如果需要前进后退按钮
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            .all {
+                width: 210px;
+                height: 45px;
+                background-color: #e1251b;
+                line-height: 45px;
+                text-align: center;
+                color: #fff;
+                font-size: 14px;
+                font-weight: bold;
             }
-        });
 
-        var floor2Swiper = new Swiper('#floor2Swiper', {
-            loop: true, // 循环模式选项
-
-            // 如果需要分页器
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // 如果需要前进后退按钮
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
+            .nav {
+                a {
+                    height: 45px;
+                    margin: 0 22px;
+                    line-height: 45px;
+                    font-size: 16px;
+                    color: #333;
+                }
             }
-        })
-    </script>
-</body>
 
-</html>
+            .sort {
+                position: absolute;
+                left: 0;
+                top: 45px;
+                width: 210px;
+                height: 461px;
+                position: absolute;
+                background: #fafafa;
+                z-index: 999;
+
+                .all-sort-list2 {
+                    .item {
+                        h3 {
+                            line-height: 30px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            overflow: hidden;
+                            padding: 0 20px;
+                            margin: 0;
+
+                            a {
+                                color: #333;
+                            }
+                        }
+
+                        .item-list {
+                            display: none;
+                            position: absolute;
+                            width: 734px;
+                            min-height: 460px;
+                            background: #f7f7f7;
+                            left: 210px;
+                            border: 1px solid #ddd;
+                            top: 0;
+                            z-index: 9999 !important;
+
+                            .subitem {
+                                float: left;
+                                width: 650px;
+                                padding: 0 4px 0 8px;
+
+                                dl {
+                                    border-top: 1px solid #eee;
+                                    padding: 6px 0;
+                                    overflow: hidden;
+                                    zoom: 1;
+
+                                    &.fore {
+                                        border-top: 0;
+                                    }
+
+                                    dt {
+                                        float: left;
+                                        width: 54px;
+                                        line-height: 22px;
+                                        text-align: right;
+                                        padding: 3px 6px 0 0;
+                                        font-weight: 700;
+                                    }
+
+                                    dd {
+                                        float: left;
+                                        width: 415px;
+                                        padding: 3px 0 0;
+                                        overflow: hidden;
+
+                                        em {
+                                            float: left;
+                                            height: 14px;
+                                            line-height: 14px;
+                                            padding: 0 8px;
+                                            margin-top: 5px;
+                                            border-left: 1px solid #ccc;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &:hover {
+                            .item-list {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+</style>

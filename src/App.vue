@@ -2,8 +2,9 @@
   <div>
       <Header></Header>
     <router-view></router-view>
-    <Footer></Footer>
-  
+    <!-- <Footer v-show="$route.path !== '/login' && $route.path !=='/register'"></Footer> -->
+  <!-- 两种方法,下边的更好 -->
+  <Footer v-show="!$route.meta.isHidden"></Footer>
   </div>
 </template>
 

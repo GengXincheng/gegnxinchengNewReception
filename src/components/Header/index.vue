@@ -7,8 +7,9 @@
           <p>尚品汇欢迎您！</p>
           <p>
             <span>请</span>
-            <a href="###">登录</a>
-            <a href="###" class="register">免费注册</a>
+            <router-link to="/login">登录</router-link>
+            <!-- <a href="###">登录</a> -->
+            <router-link to="/register" class="register">免费注册</router-link>
           </p>
         </div>
         <div class="typeList">
@@ -26,9 +27,9 @@
     <!--头部第二行 搜索区域-->
     <div class="bottom">
       <h1 class="logoArea">
-        <a class="logo" title="尚品汇" href="###" target="_blank">
+        <router-link class="logo" title="尚品汇" to="/home">
           <img src="./images/logo.png" alt="" />
-        </a>
+        </router-link>
       </h1>
       <div class="searchArea">
         <form action="###" class="searchForm">
@@ -36,8 +37,13 @@
             type="text"
             id="autocomplete"
             class="input-error input-xxlarge"
+            v-model="keyword"
           />
-          <button class="sui-btn btn-xlarge btn-danger" type="button">
+          <button
+            class="sui-btn btn-xlarge btn-danger"
+            type="button"
+            @click="toSearch"
+          >
             搜索
           </button>
         </form>
@@ -49,6 +55,47 @@
 <script>
 export default {
   name: "Home",
+  data() {
+    return {
+      keyword: "",
+    };
+  },
+  methods: {
+    toSearch() {
+      // this.$router.push(`/search/${this.keyword}?keyword1=${this.keyword.toUpperCase()}`)
+      this.$router.push({
+        name: "search",
+        params: { keyword: this.keyword || undefined },
+        query: { keyword1: this.keyword.toUpperCase() },
+      },()=>{},()=>{});//可以解决重复搜索报错问题
+      //一、路由传参种类params参数和query参数
+      //params参数是属于路径的一部分,路由当中匹配的时候,是要照顾到这个参数的  如下所示
+      // this.$router.push("/search/"+this.keyword)
+      //  {
+      //       path:'/search/:keyword',
+      //       component:Search
+      //   },
+      //query参数是在路径后面,以?分割, ?后面的  a=b&c=d就是你的query参数
+      //query参数不是属于路径的一部分,路由匹配的时候不需要关心这个参数
+      //二、路由路径的三种写法
+      //字符串写法
+      // this.$router.push("/search/"+this.keyword +'?keyword1=' + this.keyword.toUpperCase())
+      //模板字符串写法
+      //     this.$router.push(`/search/${this.keyword}?keyword1=${this.keyword.toUpperCase()}`)
+      //对象写法(重点)
+      //在
+      //  {//
+      //           path:'/search/:keyword',
+      //           component:Search,
+      //          name:'search'
+      //       },
+      //  this.$router.push({
+      //       name:"search",
+      //       params:{keyword:this.keyword},
+      //       query:{keyword1:this.keyword.toUpperCase()}
+      //     })
+    },
+  },
 };
 </script>
 
